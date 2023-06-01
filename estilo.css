@@ -9,4 +9,32 @@ background-color: aqua;
     margin-top: 30px; 
     max-width: 50vw;
      background-color: blueviolet;
-}
+ } 
+
+ .tabela{ 
+    display: table;
+ }
+  
+ .linha{ 
+    display: table-row; 
+ } 
+
+ .celula { 
+    display: table-cell;
+ }
+  
+ .cabecalho{
+     display: table-header-group;
+ }
+  
+.cabecalho .celula{ 
+     font-weight: bold;
+     text-align: center;
+ } 
+
+ .none{
+     width: 100px;
+     height: 100px;
+     background-color: olivedrab;
+     display: none;
+ }
